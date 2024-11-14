@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BestofFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <LinearLayout
+        android:id="@+id/photoContainer"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/photo22"
+            android:layout_width="410dp"
+            android:layout_height="740dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/basketball" />
+        <ImageView
+            android:id="@+id/photo2"
+            android:layout_width="410dp"
+            android:layout_height="720dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sea1" />
+        <ImageView
+            android:id="@+id/photo3"
+            android:layout_width="410dp"
+            android:layout_height="720dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sea2" />
+        <ImageView
+            android:id="@+id/photo4"
+            android:layout_width="410dp"
+            android:layout_height="720dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sea4" />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home" />
+    <item
+        android:icon="@drawable/baseline_brightness_3_24"
+        android:id="@+id/sky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Sky" />
+    <item
+        android:icon="@drawable/baseline_favorite_border_24"
+        android:id="@+id/Best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Best Of" />
+    <item
+        android:icon="@drawable/baseline_local_florist_24"
+        android:id="@+id/Flowers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Flowers" />
+</menu>

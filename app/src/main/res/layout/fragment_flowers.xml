@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlowersFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/photoContainer"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <!-- Placeholder for the first photo -->
+
+        <!-- Placeholder for the second photo -->
+
+        <ImageView
+            android:id="@+id/photo1"
+            android:layout_width="410dp"
+            android:layout_height="720dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f1" />
+
+        <ImageView
+            android:id="@+id/f3"
+            android:layout_width="410dp"
+            android:layout_height="720dp"
+            android:src="@drawable/f2"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/f4"
+            android:layout_width="410dp"
+            android:layout_height="720dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f3" />
+
+        <ImageView
+            android:id="@+id/f5"
+            android:layout_width="410dp"
+            android:layout_height="720dp"
+            android:src="@drawable/f4"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/f7"
+            android:layout_width="410dp"
+            android:layout_height="720dp"
+            android:src="@drawable/f5"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/f2"
+            android:layout_width="720dp"
+            android:layout_height="720dp"
+            android:src="@drawable/f7"
+            android:scaleType="centerCrop"/>
+
+
+        <!-- ... Add more photo placeholders as needed ... -->
+    </LinearLayout>
+
+
+
+
+</ScrollView>
